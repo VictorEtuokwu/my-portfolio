@@ -1,8 +1,9 @@
 import "./contact.css"
 
-export default function contact() {
+export default function Contact() {
     return(
-        <div classname="contact"> 
+        <div className="contact"> 
+        ff
 
         </div>
     )

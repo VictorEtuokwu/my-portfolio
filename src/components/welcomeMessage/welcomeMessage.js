@@ -1,8 +1,8 @@
-import "./WelcomeMessage.css"
+import "./welcomeMessage.css"
 
-export default function welcomeMessage() {
+export default function WelcomeMessage() {
        return (
-    <div classname="welcomeMessage"> 
+    <div className="welcomeMessage"> ggg
 
     </div>
        )

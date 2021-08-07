@@ -1,9 +1,9 @@
 import "./projectTiles.css";
 
-export default function projectTiles() {
+export default function ProjectTiles() {
      return (
-         <div classname="projectTiles">
-             
+         <div className="projectTiles">ggsf
+
               </div>
      )
 
