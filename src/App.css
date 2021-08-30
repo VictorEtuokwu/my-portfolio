@@ -1,10 +1,28 @@
 .app{
-    height: 100vh;
-
-    
-    
-   
+    height: 100%;
 } 
+ .sections{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: blue;
+    position: relative;
+    top: 70px;
+    scroll-behavior: smooth !important;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;  
+    
+}
 
+ .sections::-webkit-scrollbar {
+  display: none;
+}
 
+ .sections > *{
+    width: 100vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+    
 
+    
+}
+   
